@@ -185,11 +185,11 @@
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
 
-            <form name="submit-to-google-sheet">
+            <form name="form-pendaftaran-lomba-band">
               
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Band</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama_band" />
               </div>
 
               <div class="mb-3">
@@ -199,12 +199,12 @@
 
               <div class="mb-3">
                 <label for="name" class="form-label">No HP</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="No HP" />
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="no_hp" />
               </div>
 
               <div class="mb-3">
                 <label for="name" class="form-label">Departemen</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="Departemen" />
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="departemen" />
               </div>
 
               <div class="mb-3">
@@ -214,7 +214,7 @@
              
               <div class="mb-3">
                 <label for="pesan" class="form-label">Nama Personil Band & Dep</label>
-                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                <textarea class="form-control" id="pesan" rows="3" name="nama_personil"></textarea>
               </div>
              
               <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
@@ -239,8 +239,8 @@
      <!--ahir footer-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbxmpBLvgE4xhtOlaHL_ownf__7aP_4H4QZ5H4zse0Y1l9MIGIAr0UvFxpNpmpXd50T92g/exec'
-      const form = document.forms['submit-to-google-sheet']
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxy0Q6Rx5T90-eGTbgdEau7ez-JbXB2TPNwk3tOLmySOXWJMBRGF7Ig_NteyfguxZpNLw/exec'
+      const form = document.forms['form-pendaftaran-lomba-band']
 
       const btnKirim = document.querySelector('.btn-kirim');
       const btnLoading = document.querySelector('.btn-loading');
