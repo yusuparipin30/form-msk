@@ -7,6 +7,10 @@
   background-color: #b2cdff;
 }
 
+#info h5{
+  text-align: center;
+}
+
 section {
   padding-top: 5rem;
 }
@@ -14,6 +18,14 @@ section {
 /* .carousel-iner {
   padding-top: 6rem;
 } */
+
+#form input{
+  text-transform: capitalize;
+}
+
+#form textarea{
+  text-transform: capitalize;
+}
 
 
 
