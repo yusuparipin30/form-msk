@@ -32,4 +32,20 @@ section {
   text-align: center;
 }
 
+.container .card .sens1 h1{
+  background-color: aqua;
+}
+
+.container .card .sens2 h1{
+  background-color:brown;
+}
+
+.container .card .sens3 h1{
+  background-color:chartreuse;
+}
+
+.container .card .sens4 h1{
+  background-color:gold;
+}
+
 
