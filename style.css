@@ -1,12 +1,7 @@
 .jumbotron {
   padding-top: 3.5rem;
-  /* background-color:#0d6efd;
-} */
-
-
-#info h5{
-  text-align: center;
-}
+  
+}  
 
 section {
   padding-top: 5rem;
@@ -21,9 +16,7 @@ section {
   text-transform: capitalize;
 }
 
-#grup_band p{
-  text-align: center;
-}
+
 
 
 
