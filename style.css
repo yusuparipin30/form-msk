@@ -1,12 +1,8 @@
 .jumbotron {
   padding-top: 3.5rem;
-  /* background-color: #b2cdff; */
   background-color:#0d6efd;
 }
 
-#info {
-  background-color: #0d6efd;
-}
 
 #info h5{
   text-align: center;
@@ -16,9 +12,6 @@ section {
   padding-top: 5rem;
 }
 
-/* .carousel-iner {
-  padding-top: 6rem;
-} */
 
 #form input{
   text-transform: capitalize;
@@ -32,20 +25,6 @@ section {
   text-align: center;
 }
 
-.container .card .sens1 h1{
-  background-color: aqua;
-}
 
-.container .card .sens2 h1{
-  background-color:brown;
-}
-
-.container .card .sens3 h1{
-  background-color:chartreuse;
-}
-
-.container .card .sens4 h1{
-  background-color:gold;
-}
 
 
